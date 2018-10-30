@@ -1,3 +1,6 @@
+// dataset from https://github.com/dariusk/corpora
+// icons from https://thenounproject.com/thbruck/collection/washing/?i=182619
+
 // global variables
 var data;
 var icons = [];
