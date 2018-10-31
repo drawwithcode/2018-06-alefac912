@@ -28,6 +28,7 @@ function setup() {
 }
 
 function draw() {
+  background(255);
   // heading
   textFont('Karla');
   fill(0);
@@ -83,9 +84,5 @@ function display(_img, _counter, _category, _label) {
     fill('blue');
     textSize(10);
     text(_label, xImg + 10, yImg + 70);
-  } else {
-    fill(255);
-    textSize(10);
-    text(_label, xImg + 10, yImg + 70);
-  }
+   } 
 }
